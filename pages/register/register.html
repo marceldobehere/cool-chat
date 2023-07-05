@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Register</title>
+        <link rel="icon" type="image/x-icon" href="/shared/images/favicon.ico">
+        <link rel="stylesheet" href="/shared/css/general.css">
+        <link rel="stylesheet" href="register.css">
+    </head>
+    <body>
+        <h1>Cool Chat</h1>
+
+        <div class="main-container login-box" style="height: min-content;" id="register-box">
+            <h2 style="text-align: center;">Sign up</h2>
+            <div style="width: 400px;height: min-content;margin:auto;">
+                <form id="register-form" onsubmit="return false;">
+                    <div style="width:min-content;height:min-content;margin:auto;">
+                        <text class="subtitle">Username</text><br>
+                        <input class="round form-input" type="text" name="username" required><br>
+                        <text class="subtitle">Email</text><br>
+                        <input class="round form-input" type="email" name="email" required><br>
+                        <text class="subtitle">Password</text><br>
+                        <input class="round form-input" type="password" name="password" required onkeyup="CheckIfPasswordIsValid()"><br>
+                        <div name="password-requirements" style="font-size: 13px;">
+                            <p class="requirement_wrong" name="req-digit">✗ One Digit</p>
+                            <p class="requirement_wrong" name="req-letter">✗ One lower- and uppercase letter</p>
+                            <p class="requirement_wrong" name="req-special">✗ One special character</p>
+                            <p class="requirement_wrong" name="req-length">✗ At least 8 characters in length.</p>
+                        </div><br>
+                        <text class="subtitle">Repeat Password</text><br>
+                        <input class="round form-input" type="password" name="password-repeat" required onkeyup="CheckIfPasswordIsTheSame(this)"><br>
+                        <p id="password-repeat-error" style="font-size: 12px; color: var(--error)"></p>
+                        <p id="error-field"></p>
+                    </div>
+                    <br>
+                    <input id="sign-up-btn" class="round login-button" onclick="doRegister()" type="button" value="Sign up" disabled>
+
+                    <p style="text-align: center;">
+                        Already have an Account?<br>
+                        <a href="/login">Login here!</a>
+                    </p>
+                    <br>
+                </form>
+            </div>
+            <br>
+        </div>
+
+
+        <script src="/shared/js/roccModule.js"></script>
+        <script>
+            importModule('/shared/js/basicModules.js');
+            importModule('register.js');
+            startImporting();
+        </script>
+    </body>
+</html>

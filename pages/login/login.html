@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="icon" type="image/x-icon" href="/shared/images/favicon.ico">
+        <link rel="stylesheet" href="/shared/css/general.css">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+
+        <h1>Cool Chat</h1>
+
+        <div class="main-container login-box" id="login-box">
+            <h2>Login</h2>
+            <div style="width: min-content;height: min-content;margin:auto;">
+                <form id="login-form" onsubmit="return false; ">
+                    <div style="width:min-content;height:min-content;margin:auto;">
+                        <text class="subtitle">Username</text><br>
+                        <input class="round form-input" type="text" name="username" required  autocomplete="off"><br>
+                        <text class="subtitle">Password</text><br>
+                        <input class="round form-input" type="password" name="password" required autocomplete="off"><br>
+                        <br><br>
+                        <p id="error-field"></p>
+                    </div>
+                    <br>
+                    <input class="round login-button" onclick="doLogin()" type="button" value="Login">
+
+                    <p style="text-align: center;">
+                        Dont have an Account?<br>
+                        <a href="/register">Sign up here!</a><br>
+                    </p>
+                    <br>
+                </form>
+            </div>
+
+        </div>
+
+
+
+        <script src="/shared/js/roccModule.js"></script>
+        <script>
+            importModule('/shared/js/basicModules.js');
+            importModule('login.js');
+            startImporting();
+        </script>
+    </body>
+</html>

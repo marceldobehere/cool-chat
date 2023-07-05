@@ -1,0 +1,154 @@
+:root {
+    --success: #5DD830;
+    --error: #FF4852;
+}
+
+#loader-div
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background-color: #25333D;
+    /*background-image: url( '/shared/images/bg.svg' );*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body
+{
+    background-color: #25333D;
+    background-image: url( '/shared/images/bg.svg' );
+    background-size: cover;
+    width: 95vw;
+    height: 95vh;
+    margin:auto;
+    background-repeat: no-repeat;
+    font-family: "ABeeZee Regular", Aharoni, Corbel;
+    overflow: hidden;
+    color: #A9D7E8;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.login-box
+{
+    width: 400px;
+    height: 450px;
+}
+
+.main-container
+{
+    background-color: #546372;
+    margin: auto;
+}
+
+div, .round
+{
+    border-radius: 25px / 25px;
+}
+
+.form-input
+{
+    width: 300px;
+    height: 25px;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+
+
+a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #5FC5EC;
+}
+
+.login-button
+{
+    background-color: #48717B;
+    border:none;
+    width:140px;
+    height:40px;
+    display:block;
+    margin:auto;
+    font-size: 20px;
+}
+.login-button:hover
+{
+    background-color: #588781;
+}
+.login-button:active
+{
+    background-color: #6BA099;
+}
+
+.big-button
+{
+    background-color: #4E706C;
+    border:none;
+    font-size: 20px;
+    color: #CEF2FF;
+}
+.big-button:hover
+{
+    background-color: #588781;
+}
+.big-button:active
+{
+    background-color: #6BA099;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:darkblue;
+    border-radius: 5px;
+}
+
+
+input
+{
+    background-color: #48717B;
+    color: #CEF2FF;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #E9FFF9;
+
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #647587;
+    border:none;
+    padding: 0px 10px 0px 10px;
+}

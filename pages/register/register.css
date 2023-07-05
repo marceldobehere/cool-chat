@@ -1,0 +1,11 @@
+p {
+    margin: 2px;
+}
+
+.requirement_wrong {
+    color: var(--error);
+}
+
+.requirement_correct {
+    color: var(--success);
+}   
