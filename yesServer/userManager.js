@@ -114,7 +114,8 @@ function initApp(_app, _io, _sessionStuff, _dbStuff)
                             valid:true,
                             "username":username,
                             "email":dbEntry["email"],
-                            "profile-pic":dbEntry["profile-pic"]
+                            "profile-pic":dbEntry["profile-pic"],
+                            "id":dbEntry["id"]
                         });
                     return;
                 }

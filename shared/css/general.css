@@ -20,7 +20,7 @@
 body
 {
     background-color: #25333D;
-    background-image: url( '/shared/images/bg.svg' );
+    /*background-image: url( '/shared/images/bg.svg' );*/
     background-size: cover;
     width: 95vw;
     height: 95vh;
@@ -123,11 +123,20 @@ a
 
 ::-webkit-scrollbar {
     width: 12px;
+    background-color: #182C38;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color:darkblue;
-    border-radius: 5px;
+    background-color: #6BA099;
+    border-radius: 12px;
+}
+
+.no-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scroll::-webkit-scrollbar-thumb {
+    display: none;
 }
 
 

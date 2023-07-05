@@ -21,7 +21,8 @@ async function getUserData()
         "username":sessionReply["username"],
         "email":sessionReply["email"],
         "profile-pic":sessionReply["profile-pic"],
-        "session": obj["session"]
+        "session": obj["session"],
+        "id":sessionReply["id"]
     };
 
     console.log(globalUserData);

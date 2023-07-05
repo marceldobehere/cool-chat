@@ -3,6 +3,7 @@ let io;
 let sessionStuff;
 let dbStuff;
 const sec = require("./security.js");
+const {getRandomIntInclusive} = require("./sessionStuff");
 
 
 function initApp(_app, _io, _sessionStuff, _dbStuff)
@@ -35,7 +36,7 @@ function initApp(_app, _io, _sessionStuff, _dbStuff)
                     else
                     {
                         ogTime = currTime;
-                        dbStuff.addUser({username:username, email:email, password:password,'profile-pic':"default"});
+                        dbStuff.addUser({username:username, email:email, password:password,'profile-pic':"default", id:getRandomIntInclusive(10000, 100000000)});
                         socket.emit("register", {action: action, error:0});
                     }
                 }

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "server": 1,
+    "name": "general",
+    "type": "text"
+  },
+  {
+    "id": 2,
+    "server": 1,
+    "name": "general-2",
+    "type": "text"
+  }
+]

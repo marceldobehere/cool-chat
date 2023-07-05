@@ -1,0 +1,173 @@
+.server-list
+{
+    background-color: #22303A;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    width: 120px;
+    overflow-y: scroll;
+}
+
+.channel-list
+{
+    background-color: #22303A;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 130px;
+    width: 300px;
+    overflow-y: scroll;
+}
+.message-list
+{
+    background-color: #22303A;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 440px;
+    right: 260px;
+    overflow-y: scroll;
+}
+.user-list
+{
+    background-color: #22303A;
+    position: absolute;
+    top:0px;
+    bottom: 90px;
+    right: 0px;
+    width: 250px;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+.server
+{
+    background-color: #35434D;
+    border:none;
+    width: 100px;
+    height: 100px;
+    display:block;
+    margin:auto;
+    font-size: 20px;
+    margin:10px 10px 10px 10px;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.server:hover
+{
+    background-color: #27335E;
+}
+
+.channel
+{
+    background-color: #24313B;
+    border:none;
+    left: 10px;
+    right: 10px;
+    height:30px;
+    display:block;
+    margin:auto;
+    font-size: 20px;
+    margin:10px 10px 10px 10px;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 0px;
+}
+
+.channel:hover
+{
+    background-color: #27335E;
+}
+
+.user
+{
+    background-color: #24313B;
+    border:none;
+    left: 10px;
+    right: 10px;
+    height:40px;
+    display:block;
+    margin:auto;
+    font-size: 20px;
+    margin:10px 10px 10px 10px;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 0px;
+}
+
+.user:hover
+{
+    background-color: #27335E;
+}
+
+.message
+{
+    border:none;
+    left: 10px;
+    right: 10px;
+    padding: 10px 5px 10px 5px;
+    display:block;
+    margin:auto;
+    font-size: 20px;
+    margin:10px 10px 20px 10px;
+    border-radius: 0px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.message:hover
+{
+    background-color: #27335E;
+}
+
+.message-header
+{
+    display:blocK;
+    text-align: left;
+    border-radius: 0px;
+    width: 100%;
+    height: max-content;
+    margin-bottom: 10px;
+}
+
+.message-username
+{
+    display: inline-block;
+    text-align: left;
+
+    border-radius: 0px;
+    height: max-content;
+    margin-right: 10px;
+}
+
+.message-time
+{
+    display: inline-block;
+    text-align: left;
+
+    border-radius: 0px;
+    height: max-content;
+    margin-right-right: 10px;
+}
+
+.message-content
+{
+    display: block;
+    text-align: left;
+
+    border-radius: 0px;
+    width: 100%;
+    height: max-content;
+}
+
+
+
+
+

@@ -3,12 +3,21 @@
         "username": "masl",
         "email": "marcel.z2006@gmail.com",
         "password": 339555516,
-        "profile-pic": "test"
+        "profile-pic": "test",
+        "id": 1
     },
     {
         "username": "testo",
         "email": "testo@mail",
         "password": -1083238431,
-        "profile-pic": "default"
+        "profile-pic": "default",
+        "id": 16343
+    },
+    {
+        "username": "test1",
+        "email": "a",
+        "password": -1083238431,
+        "profile-pic": "default",
+        "id": 69882735
     }
 ]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Test Server 1",
+    "owner": 1,
+    "members": [
+      1,
+      16343,
+      69882735
+    ],
+    "channels": [
+      1,
+      2
+    ]
+  }
+]
